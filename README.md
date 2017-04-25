@@ -1,6 +1,6 @@
 # npmtest-gulp-if
 
-#### test coverage for  [gulp-if (v2.0.2)](https://github.com/robrich/gulp-if)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-if.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-if) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-if.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-if)
+#### basic test coverage for  [gulp-if (v2.0.2)](https://github.com/robrich/gulp-if)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-if.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-if) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-if.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-if)
 
 #### Conditionally run a task
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-if/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-if/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-if/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-if/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-if/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-if/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-if/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-if/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-if/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-if/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-if/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-if/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
     "scripts": {
         "test": "mocha && jshint ."
     },
-    "version": "2.0.2"
+    "version": "2.0.2",
+    "bin": {}
 }
 ```
 
